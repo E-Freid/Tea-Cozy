@@ -1,0 +1,37 @@
+/* universal code */
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+/* navigation menu */
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    height: 69px;
+    border-bottom:1px solid seashell;
+    display: block;
+}
+
+nav li{
+    height: 50px;
+    float: right;
+    margin:0 20px;
+    text-decoration: underline;
+}
+
+nav img{
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
