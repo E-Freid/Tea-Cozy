@@ -95,6 +95,32 @@ header{
     width: 1200px;
     height: 500px;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
-    margin: 0 auto;
+    margin: 50px 0 auto;
+    display: inline-block;
+}
+#locations #location-title{
+    margin: 80px auto 15px;
+}
+#locations ul h3{
+    margin-bottom: 40px;
+}
 
+.location{
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 300px;
+    height: 62%;
+    margin: 0 20px;
+}
+
+.location ul{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.location li{
+    margin-top: 40px;
 }
