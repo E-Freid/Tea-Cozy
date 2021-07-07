@@ -62,3 +62,25 @@ header{
     margin: 0 auto;
     background-color: black;
 }
+
+/* Tea section */
+#tea{
+    width: 1000px;
+}
+
+.images {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images img{
+    width: 300px;
+    height: 200px;
+}
+
+.images figcaption{
+    margin-top: 10px;
+    padding: 0;
+}
