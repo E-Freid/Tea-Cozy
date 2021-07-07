@@ -113,6 +113,7 @@ header{
     width: 300px;
     height: 62%;
     margin: 0 20px;
+    opacity: 1;
 }
 
 .location ul{
