@@ -1,5 +1,5 @@
 /* universal code */
-body{
+html{
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
@@ -7,6 +7,12 @@ body{
     opacity: 0.9;
     text-align: center;
 }
+
+ul{
+    list-style-type: none;
+}
+
+
 /* navigation menu */
 nav{
     width: 100%;
@@ -40,6 +46,19 @@ nav img{
     margin-left: 10px;
 }
 
-ul{
-    list-style-type: none;
+/* header */
+header{
+    width: 1200px;
+    height: 700px;
+    padding: 0;
+    margin: 0 auto;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    display: flex;
+    align-items: center;
+}
+
+#mission{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
 }
