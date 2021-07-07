@@ -66,13 +66,18 @@ header{
 /* Tea section */
 #tea{
     width: 1000px;
+    margin: 0 auto;
 }
 
 .images {
-    display: inline-flex;
-    align-items: center;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images figure{
+    padding: 5px;
+    margin: 10px;
 }
 
 .images img{
